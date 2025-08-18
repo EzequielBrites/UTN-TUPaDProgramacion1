@@ -1,0 +1,150 @@
+# =====================================================
+# Ejercicio 1 TP Sencuenciales
+# =====================================================
+
+print("Hola mundo")
+
+# =====================================================
+# Ejercicio 2 TP Sencuenciales
+# ===================================================== 
+
+#Entrada
+nombre = input("¿Como te llamas?\n")
+
+#Salida
+print (f"Hola {nombre}!")
+
+# =====================================================
+# Ejercicio 3 TP Sencuenciales
+# ===================================================== 
+
+#Entrada / Proceso
+nombre = input("¿Como te llamas?\n") 
+apellido = input("¿Cual es tu apellido?\n")
+edad = input("¿Cuantos años tienes?\n")
+residencia = input("¿Cual es tu lugar de residencia?\n")
+
+#Salida
+print(f"Soy {nombre} {apellido}, tengo {edad} años y vivo en {residencia}")
+
+# =====================================================
+# Ejercicio 4 TP Sencuenciales
+# ===================================================== 
+
+#Agregue el modulo math para usar la constante pi
+import math 
+
+#Entrada
+radio = float(input("Ingrese el radio del circulo en cm\n"))
+
+#Proceso
+area = float(math.pi * radio**2)
+perimetro = float(2 * math.pi * radio)
+
+#Salida
+print(f"Área: {area:.2f} cm²\nPerímetro: {perimetro:.2f} cm")
+
+# =====================================================
+# Ejercicio 5 TP Sencuenciales
+# ===================================================== 
+
+# Entrada
+segundos = int(input("Ingrese la cantidad de segundos\n"))
+
+# Proceso
+horas = segundos / 3600
+
+# Salida
+print(f"{segundos} segundos equivalen a {horas:.2f} horas")
+
+# =====================================================
+# Ejercicio 6 TP Sencuenciales
+# ===================================================== 
+
+#Entrada 
+num = int(input("Ingrese un numero para saber su tabla de multiplicar"))
+
+#Proceso / Salida
+print(f"La tabla de multiplicar del numero {num} es :")  
+print(f"{num} x 1 = {num*1}")
+print(f"{num} x 2 = {num*2}")
+print(f"{num} x 3 = {num*3}")
+print(f"{num} x 4 = {num*4}")
+print(f"{num} x 5 = {num*5}")
+print(f"{num} x 6 = {num*6}")
+print(f"{num} x 7 = {num*7}")
+print(f"{num} x 8 = {num*8}")
+print(f"{num} x 9 = {num*9}")
+print(f"{num} x 10 = {num*10}")
+
+# =====================================================
+# Ejercicio 7 TP Sencuenciales
+# ===================================================== 
+
+# Mensaje de bienvenida
+print("Bienvenido al programa!, aqui podra ingresar 2 numeros enteros y obtener su SUMA, RESTA, MULTIPLICACIÓN Y DIVISÓN")
+# Entrada
+num1 = int(input("Ingrese el primer número entero distinto del 0"))
+num2 = int(input("Ingrese el segundo número entero distinto del 0"))
+# Proceso
+suma = num1 + num2
+resta = num1 - num2 
+multiplicacion = num1 * num2 
+division = num1 / num2
+# Salida
+print(f"{num1} + {num2} = {num1 + num2}")
+print(f"{num1} - {num2} = {num1 - num2}")
+print(f"{num1} * {num2} = {num1 * num2}")
+print(f"{num1} / {num2} = {num1 / num2}")
+
+# =====================================================
+# Ejercicio 8 TP Sencuenciales
+# =====================================================
+
+# Mensaje de bienvenida
+print("Bienvenido al programa!, aqui podra ingresar su peso y su altura y obtener su IMC")
+
+# Entrada
+peso = float(input("Ingrese su peso en Kilogramos"))
+altura = float(input("Ingrese su altura en Metros"))
+
+# Proceso
+imc =  peso / altura ** 2
+
+# Salida
+print(f"Su IMC segun su peso de {peso} Kg y su altura de {altura} M es = {imc : .1f}")
+
+# =====================================================
+# Ejercicio 9 TP Sencuenciales
+# =====================================================
+
+# Mensaje de bienvenida
+print("Bienvenido al programa!, aqui podra ingresar una temperatura en grados Celsius y obtener su equivalente en grados Fahrenheit.")
+
+# Entrada
+celsius = float(input("Ingrese la temperatura en grados Celsius"))
+
+# Proceso
+fahrenheit = (celsius * 9) / 5 + 32
+
+# Salida
+
+print(f"El equivalente de {celsius}°C es = {fahrenheit}°F")
+
+# =====================================================
+# Ejercicio 10 TP Sencuenciales
+# =====================================================
+
+# Mensaje de bienvenida
+print("Bienvenido al programa!, aqui podra ingresar 3 números y obtener por pantalla el promedio de dichos números.")
+
+# Entrada
+num1 = float(input("Ingrese el primer número"))
+num2 = float(input("Ingrese el segundo número"))
+num3 = float(input("Ingrese el tercer número"))
+
+# Proceso
+promedio = (num1 + num2 + num3) / 3
+
+# Salida
+print(f"El promedio de {num1}, {num2} y {num3} es {promedio:.1f}")
