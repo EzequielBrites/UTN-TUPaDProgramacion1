@@ -176,3 +176,10 @@ num = int(input("Ingrese un número entero: "))
 num_invertido = int(str(num)[::-1])
 
 print(f"El número invertido es: {num_invertido}") # Mostramos en pantalla el número invertido
+
+result =1
+for num in range(1,6):
+    result *= num
+    if result >10:
+        break
+print(result)
